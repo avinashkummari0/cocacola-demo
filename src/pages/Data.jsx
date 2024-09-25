@@ -121,6 +121,10 @@ const Data = () => {
     navigate(`?date=${selectedDate}`);
   };
 
+  const handlePrint = () => {
+    window.print(); // Opens print dialog
+  };
+
   if (!data) {
     return (
       <div className="flex justify-center items-center w-full">
@@ -195,7 +199,7 @@ const Data = () => {
             <p className="value">{data?.TotalNet_KVAH_meter_20.toFixed(1)}</p>
           </div>
 
-          {/* Add the other transformers similarly */}
+          {/* Transformer 3 */}
           <div className="param-div">
             <Link to='/pcc3'><h2 className="pccs">
               Transformer3
@@ -216,6 +220,8 @@ const Data = () => {
             {data?.TotalNet_KVAH_meter_69.toFixed(1)}
             </p>
           </div>
+
+          {/* Transformer 4 */}
           <div className="param-div">
             <Link to='/pcc3'><h2 className="pccs">
               Transformer4
@@ -236,6 +242,8 @@ const Data = () => {
             {data?.TotalNet_KVAH_meter_69.toFixed(1)}
             </p>
           </div>
+
+          {/* Transformer 5 */}
           <div className="param-div">
             <Link to='/pcc3'><h2 className="pccs">
               Transformer5
@@ -257,8 +265,14 @@ const Data = () => {
             </p>
           </div>
         </div>
+
         <div className="flex gap-5 justify-center mt-10">
-          <button className="bg-blue-600 px-6 py-1 rounded-md font-medium text-white">Print</button>
+          <button 
+            className="bg-blue-600 px-6 py-1 rounded-md font-medium text-white"
+            onClick={handlePrint} // Call handlePrint function on click
+          >
+            Print
+          </button>
           <button className="bg-blue-600 px-6 py-1 rounded-md font-medium text-white">Save as</button>
         </div>
       </div>
