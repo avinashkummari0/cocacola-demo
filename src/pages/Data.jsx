@@ -274,7 +274,7 @@ const Data = () => {
           >
             Print
           </button>
-          <button className="bg-blue-600 px-6 py-1 rounded-md font-medium text-white">Save as</button>
+          <button className="bg-blue-600 px-6 py-1 rounded-md font-medium text-white" onClick={handlePrint}>Save as</button>
         </div>
       </div>
     </section>
