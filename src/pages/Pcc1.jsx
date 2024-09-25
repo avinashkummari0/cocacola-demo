@@ -3,7 +3,7 @@ import axios from 'axios'
 import CurrentTime from '../components/CurrentTime';
 import { Link } from 'react-router-dom';
 import { useTheme } from '../components/ThemeContext';
-import { dark, green_fusion, light } from '../constants';
+import { dark, green_fusion, light,coca} from '../constants';
 import Sidebar from '../components/Sidebar'
 import { API_URL } from '../data/api';
 import Middle from './Middle';
@@ -55,7 +55,7 @@ const Pcc1 = () => {
       </header> */}
       <header className="justify-between flex items-center ml-16 ">
         {/* <h1 className="md:text-2xl 2xl:text-5xl text-xl p-4 flex md:gap-3 font-Audiowide font-bold dark:text-[#000000]"> */}
-        <img src="https://1000logos.net/wp-content/uploads/2021/05/Coca-Cola-logo.png" className=" logo w-40 h-full object-center " alt="" /> 
+        <img src={coca} className=" logo w-64 h-24 object-center my-4" alt="" /> 
         {/* </h1> */}
         <span className="flex flex-row justify-center items-center">
           <img
@@ -86,7 +86,7 @@ const Pcc1 = () => {
                 <div className="">
                 <div className="param1-div">
                     <Link to='/Middle'><h2 className='parameter'>
-                      Transformer
+                      Transformer-1
                       </h2></Link>
                       <p className='param-value'>
                         {data?.Total_KW_meter_29.toFixed(2)}

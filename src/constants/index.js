@@ -11,7 +11,8 @@ import green_fusion from './logos/green-fusion.png'
 import vishnu1 from './logos/vishnu.png'
 import growth from './logos/growth.png'
 import gfit from './logos/gfit.png'
+import coca from './logos/coca.png'
 
 export {
-    home,chart,power,user,light,dark,pcc,logo,vishnu,green_fusion,vishnu1, growth,gfit
+    home,chart,power,user,light,dark,pcc,logo,vishnu,green_fusion,vishnu1, growth,gfit,coca
 }

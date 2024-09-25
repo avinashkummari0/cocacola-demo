@@ -3,7 +3,7 @@ import axios from "axios";
 import CurrentTime from "../components/CurrentTime";
 import Loading from '../components/Loading'
 import { useTheme } from "../components/ThemeContext";
-import { dark, green_fusion, light, vishnu } from "../constants";
+import { dark, green_fusion, light, vishnu, coca } from "../constants";
 import RealTimeEnergyMeter from '../components/charts/RealTimeEnergyMeter';
 import { Link } from "react-router-dom";
 import { API_URL, API_URL2 } from "../data/api";
@@ -115,7 +115,7 @@ const Home = () => {
       <ToastContainer />
       <header className="justify-between flex items-center ml-16 ">
         {/* <h1 className="md:text-2xl 2xl:text-5xl text-xl p-4 flex md:gap-3 font-Audiowide font-bold dark:text-[#000000]"> */}
-        <img src="https://1000logos.net/wp-content/uploads/2021/05/Coca-Cola-logo.png" className=" logo w-40 h-full object-center " alt="" /> 
+        <img src={coca} className=" logo w-64 h-24 object-center my-4" alt="" /> 
         {/* </h1> */}
         <span className="flex flex-row justify-center items-center">
           <img

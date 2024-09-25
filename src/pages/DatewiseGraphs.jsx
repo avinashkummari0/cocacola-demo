@@ -4,7 +4,7 @@ import DailyPowerGraph from "../components/graphs/DailyPowerGraph";
 import DailyEnergyGraph from "../components/graphs/DailyEnergyGraph";
 import Sidebar from "../components/Sidebar";
 import { useTheme } from "../components/ThemeContext";
-import { dark, green_fusion, light } from "../constants";
+import { dark, green_fusion, light,coca } from "../constants";
 import DailyKvaGraph from "../components/graphs/DailyKvaGraph";
 
 const DatewiseGraphs = () => {
@@ -21,7 +21,7 @@ const DatewiseGraphs = () => {
           <header className="justify-between flex items-center ml-16 mx-2">
           <h1 className="md:text-2xl 2xl:text-5xl text-xl p-4 flex md:gap-3 font-Audiowide font-bold dark:text-[#e4e2e2]">
         {/* Green Fusion IoT Solutions<img src={green_fusion} className="w-20" alt="" /> */}
-        <img src="https://1000logos.net/wp-content/uploads/2021/05/Coca-Cola-logo.png" className=" logo w-40 h-full object-center " alt="" /> 
+        <img src={coca} className=" logo w-64 h-24 object-center my-4" alt="" /> 
         </h1>
             <span className="flex flex-row justify-center items-center md:gap-4 gap-2">
               <img

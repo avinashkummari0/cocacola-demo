@@ -8,6 +8,7 @@ import { API_URL, API_URL2 } from "../data/api";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import CurrentTime from "../components/CurrentTime"
+import { dark, green_fusion, light, vishnu, coca } from "../constants";
 
 const Data = () => {
   // Get current URL and query parameters
@@ -140,7 +141,7 @@ const Data = () => {
       <div className="p-6 bg-gray-100 min-h-screen w-full">
         <div className="flex justify-between mb-4">
           {/* <h1 className="text-2xl font-bold mb-4">Sensor Data Dashboard</h1> */}
-          <img src="https://1000logos.net/wp-content/uploads/2021/05/Coca-Cola-logo.png" className=" logo w-40 h-full object-center ml-16 " alt="" />
+          <img src={coca} className=" logo w-64 h-24 object-center my-4" alt="" /> 
           {/* Date Selector */}
           <div className="flex gap-4 justify-center items-center">
             <label
