@@ -24,9 +24,9 @@ const App = () => {
         <Route path='/SingleMeter/:id' element={<SingleMeter/>} />
         <Route path='*' element={<PageNotFound/>} />
         <Route path="/sensordata" element={<Data/>}/>
-        <Route path="/Middle" element={< Middle/>}/>
-        <Route path='/Middle2' element={< Middle2/>}/>
-        <Route path='/Middle3' element={<Middle3/>}/>
+        <Route path="/Middle/:name" element={< Middle/>}/>
+        <Route path='/Middle2/:name' element={< Middle2/>}/>
+        <Route path='/Middle3/:name' element={<Middle3/>}/>
       </Routes>
     </div>
   )

@@ -105,7 +105,7 @@ const Pcc2 = () => {
 
 
                   <div className="param1-div">
-                    <Link to='/Middle2'><h2
+                    <Link to='/SingleMeter/15'><h2
                       className='parameter'
                     >
                       Transformer-2
@@ -133,7 +133,7 @@ const Pcc2 = () => {
                   </div>
 
                     <div className="param1-div">
-                    <Link to='/Middle2'><h2 className='parameter'>
+                    <Link to='/Middle2/Incoming-1'><h2 className='parameter'>
                         Incoming-1
                       </h2></Link>
                       <p className='param-value'>
@@ -151,7 +151,7 @@ const Pcc2 = () => {
                     </div>
 
                     <div className="param1-div">
-                    <Link to='/Middle2'><h2 className='parameter'>
+                    <Link to='/Middle2/Incoming-2'><h2 className='parameter'>
                         Incoming-2
                       </h2></Link>
                       <p className='param-value'>
@@ -169,7 +169,7 @@ const Pcc2 = () => {
                     </div>
 
                     <div className="param1-div">
-                    <Link to='/Middle2'><h2 className='parameter'>
+                    <Link to='/Middle2/Outgoing-1'><h2 className='parameter'>
                         Outgoing-1
                       </h2></Link>
                       <p className='param-value'>
@@ -187,7 +187,7 @@ const Pcc2 = () => {
                     </div>
 
                     <div className="param1-div">
-                    <Link to='/Middle2'><h2 className='parameter'>
+                    <Link to='/Middle2/Incoming-3'><h2 className='parameter'>
                        Incoming-3
                       </h2></Link>
                       <p className='param-value'>
@@ -205,7 +205,7 @@ const Pcc2 = () => {
                     </div>
 
                     <div className="param1-div">
-                    <Link to='/Middle2'><h2 className='parameter'>
+                    <Link to='/Middle2/Incoming-4'><h2 className='parameter'>
                         Incoming-4
                       </h2></Link>
                       <p className='param-value'>
@@ -223,7 +223,7 @@ const Pcc2 = () => {
                     </div>
     
                     <div className="param1-div">
-                    <Link to='/Middle2'><h2 className='parameter'>
+                    <Link to='/Middle2/Outgoing-2'><h2 className='parameter'>
                         Outgoing-2
                       </h2></Link>
                       <p className='param-value'>
@@ -241,7 +241,7 @@ const Pcc2 = () => {
                     </div>
 
                     <div className="param1-div">
-                    <Link to='/Middle2'><h2 className='parameter'>
+                    <Link to='/Middle2/Outgoing-3'><h2 className='parameter'>
                         Outgoing-3
                       </h2></Link>
                       <p className='param-value'>
@@ -259,7 +259,7 @@ const Pcc2 = () => {
                     </div>
 
                     <div className="param1-div">
-                    <Link to='/Middle2'><h2 className='parameter'>
+                    <Link to='/Middle2/Outgoing-4'><h2 className='parameter'>
                         Outgoing-4
                       </h2></Link>
                       <p className='param-value'>
@@ -277,7 +277,7 @@ const Pcc2 = () => {
                     </div>
 
                     <div className="param1-div">
-                    <Link to='/Middle2'><h2 className='parameter'>
+                    <Link to='/Middle2/Incoming-5'><h2 className='parameter'>
                         Incoming-5
                       </h2></Link>
                       <p className='param-value'>
@@ -295,7 +295,7 @@ const Pcc2 = () => {
                     </div>
 
                     <div className="param1-div">
-                    <Link to='/Middle2'><h2 className="parameter">
+                    <Link to='/Middle2/Incomming-6'><h2 className="parameter">
                         Incomming-6
                       </h2></Link>
                       <p className='param-value'>
@@ -313,7 +313,7 @@ const Pcc2 = () => {
                     </div>
 
                     <div className="param1-div">
-                    <Link to='/Middle2'><h2 className='parameter'>
+                    <Link to='/Middle2/Outgoing-5'><h2 className='parameter'>
                         Outgoing-5
                       </h2></Link>
                       <p className='param-value'>
@@ -330,7 +330,7 @@ const Pcc2 = () => {
                       </p>
                     </div>
                     <div className="param1-div">
-                    <Link to='/Middle2'><h2 className='parameter'>
+                    <Link to='/Middle2/Outgoing-6'><h2 className='parameter'>
                         Outgoing-6
                       </h2></Link>
                       <p className='param-value'>
@@ -346,7 +346,7 @@ const Pcc2 = () => {
                         {data?.Total_KVA_meter_26}
                       </p>
                     </div>
-                    <div className="param1-div">
+                    {/* <div className="param1-div">
                     <Link to='/Middle2'><h2 className='parameter'>
                         Incoming-7
                       </h2></Link>
@@ -379,7 +379,7 @@ const Pcc2 = () => {
                       <p className='param-value'>
                         {data?.Total_KVA_meter_26}
                       </p>
-                    </div>
+                    </div> */}
                     </div>
               </div>
             </section>

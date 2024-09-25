@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import CurrentTime from '../components/CurrentTime';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { useTheme } from '../components/ThemeContext';
 import { dark, green_fusion, light,coca } from '../constants';
 import Sidebar from '../components/Sidebar'
@@ -11,6 +11,7 @@ const Middle3 = () => {
 
   const [data, setData] = useState(null);
   const { theme, toggleTheme } = useTheme();
+  let { name } = useParams();
 
   useEffect(() => {
     const fetchData = async () => {
@@ -85,7 +86,7 @@ const Middle3 = () => {
                 <div className="">
                 <div className="param1-div">
                     <Link to='/SingleMeter/29'><h2 className='parameter'>
-                      Transformer-3
+                      {name}
                       </h2></Link>
                       <p className='param-value'>
                         {data?.Total_KW_meter_29.toFixed(2)}
