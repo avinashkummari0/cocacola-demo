@@ -257,6 +257,10 @@ const Data = () => {
             </p>
           </div>
         </div>
+        <div className="flex gap-5 justify-center mt-10">
+          <button className="bg-blue-600 px-6 py-1 rounded-md font-medium text-white">Print</button>
+          <button className="bg-blue-600 px-6 py-1 rounded-md font-medium text-white">Save as</button>
+        </div>
       </div>
     </section>
   );
