@@ -268,14 +268,14 @@ const Data = () => {
         </div>
 
         <div className="flex gap-5 justify-center mt-10">
-          <button 
+          {/* <button 
             className="bg-blue-600 px-6 py-1 rounded-md font-medium text-white"
             onClick={handlePrint} // Call handlePrint function on click
           >
             Print
-          </button>
-          <button className="bg-blue-600 px-6 py-1 rounded-md font-medium text-white" onClick={handlePrint}>Save as</button>
-        </div>
+          </button> */}
+{/*           <button className="bg-blue-600 px-6 py-1 rounded-md font-medium text-white" onClick={handlePrint}>Save as</button>
+ */}        </div>
       </div>
     </section>
   );
